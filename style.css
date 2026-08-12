@@ -481,4 +481,28 @@ footer {
         height: auto;
     }
 */
+}*/
+/* View Project Button */
+
+.project-view-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+
+    background: #2563eb;
+    color: #ffffff;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+.project-view-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
