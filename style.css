@@ -482,6 +482,273 @@ footer {
     }
 */
 }*/
+/* =================================
+   PROJECT DETAILS PAGE
+================================= */
+
+.project-header {
+    padding: 25px 8%;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #172033;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+/* Main */
+
+.project-details {
+    max-width: 1150px;
+    margin: auto;
+    padding: 70px 5%;
+}
+
+
+/* Heading */
+
+.project-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.project-heading h1 {
+    font-size: 46px;
+    margin: 12px 0;
+    color: #172033;
+}
+
+.project-subtitle {
+    font-size: 18px;
+    color: #687083;
+}
+
+
+/* Main Image */
+
+.project-main-image {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #eeeeee;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.10);
+}
+
+.project-main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+/* Information */
+
+.project-information {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 50px;
+    margin-top: 55px;
+}
+
+.project-description h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.project-description p {
+    color: #626b7a;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+
+/* Details Box */
+
+.project-details-box {
+    padding: 30px;
+    border-radius: 16px;
+    background: #f7f8fa;
+}
+
+.project-details-box div {
+    margin-bottom: 25px;
+}
+
+.project-details-box div:last-child {
+    margin-bottom: 0;
+}
+
+.project-details-box strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #172033;
+}
+
+.project-details-box p {
+    margin: 0;
+    color: #626b7a;
+    line-height: 1.5;
+}
+
+
+/* Gallery Button */
+
+.gallery-button-area {
+    text-align: center;
+    margin: 55px 0 80px;
+}
+
+.gallery-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.gallery-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37,99,235,0.25);
+}
+
+
+/* Gallery */
+
+.project-gallery-section {
+    padding-top: 20px;
+}
+
+.gallery-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.gallery-heading span {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.gallery-heading h2 {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.gallery-heading p {
+    color: #687083;
+}
+
+
+/* Gallery Grid */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.gallery-item {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.03);
+}
+
+.gallery-item h3 {
+    padding: 18px 20px;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+/* Footer */
+
+.project-footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    background: #172033;
+    color: #ffffff;
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 800px) {
+
+    .project-heading h1 {
+        font-size: 35px;
+    }
+
+    .project-main-image {
+        height: 350px;
+    }
+
+    .project-information {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .project-details {
+        padding: 50px 20px;
+    }
+
+    .project-heading h1 {
+        font-size: 29px;
+    }
+
+    .project-main-image {
+        height: 250px;
+    }
+
+    .gallery-heading h2 {
+        font-size: 28px;
+    }
+
+}
 /* View Project Button */
 
 .project-view-button {
