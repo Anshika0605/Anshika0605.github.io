@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Royal Bistro | Anshika</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .project-page {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .project-page-header {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .project-page-header h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .project-page-header p {
+            font-size: 17px;
+            line-height: 1.7;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .project-details {
+            background: #f8f8f8;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 45px;
+        }
+
+        .project-details p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .gallery-title {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .project-gallery img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 12px;
+            display: block;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+        }
+
+        .back-button {
+            display: block;
+            width: fit-content;
+            margin: 45px auto 0;
+            padding: 12px 22px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+
+        @media (max-width: 768px) {
+
+            .project-page-header h1 {
+                font-size: 30px;
+            }
+
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .project-gallery img {
+                height: 250px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+        <nav>
+
+            <h2 class="logo">Anshika</h2>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Project Details -->
+
+    <main class="project-page">
+
+        <div class="project-page-header">
+
+            <h1>Our Royal Bistro</h1>
+
+            <p>
+                A modern restaurant and food store website designed
+                to provide a smooth and user-friendly online food
+                ordering experience.
+            </p>
+
+        </div>
+
+
+        <div class="project-details">
+
+            <p>
+                <strong>My Role:</strong>
+                Web Designer & Frontend Developer
+            </p>
+
+            <p>
+                <strong>Technology:</strong>
+                WordPress, Elementor, WooCommerce
+            </p>
+
+            <p>
+                <strong>Project Type:</strong>
+                Restaurant / Food Store Website
+            </p>
+
+            <p>
+                <strong>Features:</strong>
+                Food Categories, Product Listing, Cart,
+                Pickup & Delivery Options, Scheduling and
+                Customer-Friendly Navigation
+            </p>
+
+        </div>
+
+
+        <!-- Gallery -->
+
+        <h2 class="gallery-title">Project Gallery</h2>
+
+        <div class="project-gallery">
+
+            <!-- Replace these image names with your actual files -->
+
+            <img src="royal-home.png"
+                 alt="Our Royal Bistro Home Page">
+
+            <img src="royal-menu.png"
+                 alt="Our Royal Bistro Food Menu">
+
+            <img src="royal-category.png"
+                 alt="Our Royal Bistro Food Categories">
+
+            <img src="royal-product.png"
+                 alt="Our Royal Bistro Products">
+
+            <img src="royal-cart.png"
+                 alt="Our Royal Bistro Cart">
+
+            <img src="royal-checkout.png"
+                 alt="Our Royal Bistro Checkout">
+
+        </div>
+
+
+        <a href="index.html#projects" class="back-button">
+            ← Back to Projects
+        </a>
+
+    </main>
+
+</body>
+
+</html>
