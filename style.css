@@ -253,7 +253,7 @@ nav ul li a:hover {
         height: 200px;
     }
 }
-/* Status */
+/* Status 
 
 .status {
     display: inline-block;
@@ -266,7 +266,7 @@ nav ul li a:hover {
 }
 
 
-/* Project Gallery */
+/* Project Gallery 
 
 .project-gallery {
     display: grid;
@@ -276,7 +276,7 @@ nav ul li a:hover {
 }
 
 
-/* Gallery Item */
+/* Gallery Item 
 
 .gallery-item {
     text-align: center;
@@ -295,7 +295,7 @@ nav ul li a:hover {
     font-size: 12px;
     font-weight: 600;
 }
-
+*/
 
 /* ================= MOBILE ================= */
 
