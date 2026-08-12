@@ -374,17 +374,151 @@ nav ul li a:hover {
 }
 
 
-/* Contact */
+/* ===== CONTACT SECTION ===== */
 
 .contact {
+    padding: 80px 20px;
     text-align: center;
 }
 
-.contact p {
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-intro {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+}
+
+.contact-container {
+    max-width: 950px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 25px;
+
+    text-align: left;
+}
+
+.contact-info,
+.contact-action {
+    padding: 30px;
+
+    background: #ffffff;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h3,
+.contact-action h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.contact-info > p,
+.contact-action > p {
+    line-height: 1.7;
     margin-bottom: 25px;
 }
 
 
+/* Contact Items */
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+.contact-icon {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 10px;
+
+    background: #f1f5f9;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-item strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+
+.contact-item span:not(.contact-icon) {
+    display: block;
+}
+
+
+/* Right Box */
+
+.contact-action {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn {
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 12px 24px;
+
+    background: #2563eb;
+    color: #ffffff;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .contact-info,
+    .contact-action {
+        padding: 25px;
+    }
+}
 /* Footer */
 
 footer {
