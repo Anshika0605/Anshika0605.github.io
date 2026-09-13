@@ -975,7 +975,7 @@ footer {
 }
 
 .project-category .real-project .project-image img {
-    height: 180px;
+    height: 120px;
     object-fit: cover;
 }
 
@@ -984,11 +984,11 @@ footer {
 }
 
 .project-category .real-project .project-content h3 {
-    margin: 8px 0;
+    margin: 3px 0;
 }
 
 .project-category .real-project .project-content p {
-    margin: 8px 0;
+    margin: 3px 0;
 }
 
 .project-category .real-project .project-buttons {
