@@ -971,27 +971,27 @@ footer {
 }
 /* Make Real-Life Project Cards More Compact */
 .project-category .real-project {
-    height: auto;
+padding:0;
 }
 
 .project-category .real-project .project-image img {
-    height: 120px;
+    height: 180px;
     object-fit: cover;
 }
 
 .project-category .real-project .project-content {
-    padding: 18px;
+    padding: 12px 16px;
 }
 
 .project-category .real-project .project-content h3 {
-    margin: 3px 0;
+    margin: 5px 0;
 }
 
 .project-category .real-project .project-content p {
-    margin: 3px 0;
+    margin: 5px 0;
 }
 
 .project-category .real-project .project-buttons {
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
