@@ -958,3 +958,14 @@ footer {
     margin: 20px auto 35px;
     max-width: 900px;
 }
+/*real live projects*/
+.real-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+@media (max-width: 768px) {
+    .real-projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
