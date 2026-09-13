@@ -953,7 +953,7 @@ footer {
 }
 
 /* Center the description below My Projects */
-.projects > p {
+#projects p {
     text-align: center;
     margin: 20px auto 35px;
     max-width: 900px;
