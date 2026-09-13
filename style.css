@@ -965,7 +965,33 @@ footer {
     gap: 25px;
 }
 @media (max-width: 768px) {
-    .real-projects-grid {
-        grid-template-columns: 1fr;
+    .project-category .projects-grid {
+        grid-template-columns: 1fr !important;
     }
 }
+/* Make Real-Life Project Cards More Compact */
+.project-category .real-project {
+    height: auto;
+}
+
+.project-category .real-project .project-image img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-category .real-project .project-content {
+    padding: 18px;
+}
+
+.project-category .real-project .project-content h3 {
+    margin: 8px 0;
+}
+
+.project-category .real-project .project-content p {
+    margin: 8px 0;
+}
+
+.project-category .real-project .project-buttons {
+    margin-top: 12px;
+}
+
