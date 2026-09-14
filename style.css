@@ -952,12 +952,12 @@ footer {
     }
 }
 
-/* Center the description below My Projects */
-#projects p {
+/* Center the description below My Projects 
+#projects>p {
     text-align: center;
     margin: 20px auto 35px;
     max-width: 900px;
-}
+}*/
 /* Real Life Projects - 3 Columns */
 .project-category .projects-grid {
     display: grid !important;
