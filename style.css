@@ -1042,5 +1042,42 @@ padding:0;
     margin-top: 10px !important;
     text-align: left !important;
 }
+/* Practice Projects - 3 Column Layout */
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.projects-container .project-category-title {
+    grid-column: 1 / -1;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+/* Secondary Project Details Button */
+.project-details-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background: transparent;
+    color: #2563eb !important;
+    border: 2px solid #2563eb;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.project-details-button:hover {
+    background: #2563eb;
+    color: #ffffff !important;
+    transform: translateY(-3px);
+}
+
+
+
 
 
