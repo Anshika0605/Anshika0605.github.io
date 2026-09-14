@@ -1076,6 +1076,22 @@ padding:0;
     color: #ffffff !important;
     transform: translateY(-3px);
 }
+/* Projects Section Spacing & Alignment */
+#projects {
+    padding-top: 40px;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#projects .section-intro {
+    text-align: center;
+    margin: 0 auto 25px;
+    max-width: 950px;
+}
+
 
 
 
