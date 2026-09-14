@@ -995,4 +995,36 @@ padding:0;
 .project-category .real-project .project-buttons {
     margin-top: 6px;
 }
+/* Real-Life Project Card - Compact Left Alignment */
+
+.project-category .real-project .project-content {
+    text-align: left !important;
+    padding: 12px 16px !important;
+}
+
+/* Project badge */
+.project-category .real-project .project-badge {
+    display: inline-block;
+    margin-bottom: 5px !important;
+}
+
+/* Project name */
+.project-category .real-project .project-content h3 {
+    text-align: left !important;
+    margin: 5px 0 8px !important;
+}
+
+/* Description, Role and Technology */
+.project-category .real-project .project-content p {
+    text-align: left !important;
+    margin: 5px 0 !important;
+    line-height: 1.4 !important;
+}
+
+/* Buttons */
+.project-category .real-project .project-buttons {
+    margin-top: 10px !important;
+    text-align: left !important;
+}
+
 
