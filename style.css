@@ -1097,7 +1097,7 @@ padding:0;
 /* Practice Projects - 3 Column Layout */
 .project-category-title + .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     width: 100%;
     max-width: 1200px;
@@ -1111,7 +1111,7 @@ padding:0;
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .project-category-title + .projects-container {
         grid-template-columns: 1fr;
     }
