@@ -979,20 +979,20 @@ padding:0;
     object-fit: cover;
 }
 
-/* Practice Projects heading should take full row */
+/* Practice Projects heading should take full row 
 .project-category-title {
     grid-column: 1 / -1;
     text-align: left;
 }
 
-/* Practice Projects in 3 columns */
+/* Practice Projects in 3 columns 
 .project-category .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
-
+*/
 
 
 .project-category .real-project .project-content {
@@ -1045,16 +1045,19 @@ padding:0;
 /* Practice Projects - 3 Column Layout */
 
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 25px;
 }
-
-.projects-container .project-category-title {
+@media (max-width: 768px) {
+    .projects-container .project-category-title {
+        grid-template-columns: 1fr !important;
+    }
+/*.projects-container .project-category-title {
     grid-column: 1 / -1;
     width: 100%;
     text-align: left;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px 0;*/
 }
 /* Secondary Project Details Button */
 .project-details-button {
