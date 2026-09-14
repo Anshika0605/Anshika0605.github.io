@@ -1042,7 +1042,7 @@ padding:0;
     margin-top: 10px !important;
     text-align: left !important;
 }
-/* Practice Projects - 3 Column Layout */
+/* Practice Projects - 3 Column Layout 
 
 .projects-container {
     display: grid !important;
@@ -1052,7 +1052,7 @@ padding:0;
 @media (max-width: 768px) {
     .projects-container .project-category-title {
         grid-template-columns: 1fr !important;
-    }
+    }*/
 /*.projects-container .project-category-title {
     grid-column: 1 / -1;
     width: 100%;
