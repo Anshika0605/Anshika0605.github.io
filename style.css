@@ -979,6 +979,22 @@ padding:0;
     object-fit: cover;
 }
 
+/* Practice Projects heading should take full row */
+.project-category-title {
+    grid-column: 1 / -1;
+    text-align: left;
+}
+
+/* Practice Projects in 3 columns */
+.project-category .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+
+
 .project-category .real-project .project-content {
     padding: 10px 14px;
 }
